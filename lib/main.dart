@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/ai_chat_page.dart';
+import 'pages/weather_demo_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,6 +36,7 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
   final List<Widget> _pages = [
     const ProfilePage(),
     const AiChatPage(),
+    const WeatherDemoPage(),
   ];
 
   @override
@@ -58,6 +60,10 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.smart_toy),
             label: 'AI Chat Demo',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.cloud),
+            label: 'สภาพอากาศ (3.4)',
           ),
         ],
       ),
