@@ -1,0 +1,106 @@
+# ==========================================
+# 🔐 API Keys, Secrets & Sensitive Configs
+# ==========================================
+# ป้องกันการอัปโหลดไฟล์ที่มี API Key และความลับต่างๆ ขึ้น Git
+.env
+.env*
+*.env
+*.env.*
+lib/config/api_config.dart
+**/api_config.dart
+*secret*
+
+# ==========================================
+# 🛠️ Flutter / Dart / Pub related
+# ==========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+doc/api/
+
+# ==========================================
+# 🖥️ IDEs & Editors (VS Code, IntelliJ, Android Studio)
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# .vscode สามารถละเว้นหรือเลือกเก็บเฉพาะไฟล์ตั้งค่าที่จำเป็นได้
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ==========================================
+# 📱 Android related
+# ==========================================
+android/app/debug
+android/app/profile
+android/app/release
+android/.gradle/
+android/captures/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+
+# ==========================================
+# 🍎 iOS / macOS related
+# ==========================================
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# ==========================================
+# 🪟 Windows / Linux / Web related
+# ==========================================
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+web/build/
+
+# Symbolication & Obfuscation related
+app.*.symbols
+app.*.map.json
+
+# ==========================================
+# 💻 OS & Miscellaneous Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs & Temp files
+*.log
+*.class
+*.pyc
+*.bak
+*.tmp
+.history/
+migrate_working_dir/
