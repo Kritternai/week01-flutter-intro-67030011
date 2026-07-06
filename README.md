@@ -25,9 +25,15 @@
 
 ## 📸 ตัวอย่างหน้าจอการทำงาน (Screenshots)
 
+### แอปพลิเคชันหลัก
 | 👤 Profile Card App | 🤖 AI Chat App | 🛠️ Flutter Setup & Doctor |
 | :---: | :---: | :---: |
 | ![Profile Card App](./screenshots/profile_card.png) | ![AI Chat App](./screenshots/ai_chat.png) | ![Flutter Doctor](./screenshots/ai_studio.png) |
+
+### ผลการทดลอง Prompt Engineering (ข้อ 3.4)
+| 🌤️ Simple Prompt Result | 🌈 Detailed Prompt Result |
+| :---: | :---: |
+| ![Simple Prompt](./screenshots/prompt_simple.png) | ![Detailed Prompt](./screenshots/prompt_detailed.png) |
 
 ---
 

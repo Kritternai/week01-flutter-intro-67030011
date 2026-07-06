@@ -101,6 +101,7 @@ MaterialApp
 ```
 ช่วยเขียน Flutter Widget สำหรับแสดงสภาพอากาศ (Weather Card) ด้วย StatelessWidget ให้หน่อย
 ```
+![Simple Prompt Result](screenshots/prompt_simple.png)
 
 **Prompt แบบ Detailed:**
 ```
@@ -112,6 +113,7 @@ MaterialApp
 - ออกแบบตัวอักษรอุณหภูมิให้มีขนาดใหญ่ชัดเจน
 - แสดงผล Humidity ภายในกรอบ Container โปร่งแสงพร้อมไอคอนหยดน้ำที่สวยงาม
 ```
+![Detailed Prompt Result](screenshots/prompt_detailed.png)
 
 **ความแตกต่างของผลลัพธ์**
 ```
